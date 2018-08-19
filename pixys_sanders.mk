@@ -18,8 +18,8 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/sanders/full_sanders.mk)
 
-# Inherit some common SacredOS stuff.
-$(call inherit-product, vendor/pixys/common.mk)
+# Inherit some common PixysOS stuff.
+$(call inherit-product, vendor/pixys/config/common.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
